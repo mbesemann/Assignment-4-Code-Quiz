@@ -1,0 +1,16 @@
+h1, h4 {
+    text-align: center;
+}
+
+li {
+    margin: 2px;
+}
+
+ul {
+    list-style-type: none;
+}
+
+ol {
+    display: table;
+    margin: 0 auto;
+}
