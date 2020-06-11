@@ -122,6 +122,7 @@ function loadQuestion(questionIndex) {
         answerButton = document.createElement("button");
         answerButton.setAttribute("type", "button");
         answerButton.setAttribute("class", "btn btn-primary");
+        answerButton.setAttribute("style", "word-wrap: break-word; width: 300px;");
         answerButton.setAttribute("data-id", answerIndex);
         answerButton.textContent = `${answerIndex + 1}: ${answer}`;
         answerButton.addEventListener("click", checkAnswer);
